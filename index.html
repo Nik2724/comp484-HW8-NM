@@ -7,13 +7,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Nikolas Martell | Resume</title>
 </head>
 <body>
+    <nav class="main-nav">
+        <!-- Each href matches an id added to a section below -->
+        <a href="#top">Home</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <!-- // Intro -->
-    <header class="intro">
+    <header class="intro" id="top">
         <div class="content-wrap">
-        <img class= "column-narrow" class="profile-img" src="images/Nik.png" alt="Nikolas Martell" width="250" >
+        <img class="profile-img" src="images/Nik.png" alt="Nikolas Martell" width="250" >
             <div class="column-wide">
         <h1>Nikolas Martell</h1>
         
@@ -25,7 +34,7 @@
     
     <main> 
         <!-- // Work Experience -->
-        <section class="Pro">
+        <section class="Pro" id="work">
             <div class="content-wrap">
                 <div class="column-narrow">
             <h2>Work Experience</h2>
@@ -87,7 +96,7 @@
 
 
         <!-- // Education -->
-        <section class="Edu">
+        <section class="Edu" id="education">
             <div class="content-wrap">
             <h2>Education</h2>
 
@@ -103,15 +112,16 @@
     </main>
     
     <!-- // Footer & contact info -->
-    <footer class="contact-info">
+    <footer class="contact-info" id="contact">
         <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
         
         <!-- Social media and contact links. Add or remove any networks. -->
         <div>
-            <p>Phone: 818-518-3239</p>
-            <a href="mailto:nikolasmartell2724@gmail.com">nikolasmartell2724@gmail.com</a>
-            <a href="https://www.linkedin.com/in/nikolas-martell-1b6bb031b" target="_blank">LinkedIn</a>
+            <p><i class="fa-solid fa-phone" aria-hidden="true"></i> Phone: 818-518-3239</p>
+            <a href="mailto:nikolasmartell2724@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> nikolasmartell2724@gmail.com</a>
+            <a href="https://www.linkedin.com/in/nikolas-martell-1b6bb031b" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+
             
         </div>
     </div>
