@@ -180,11 +180,10 @@ footer{
 /* Education
 ------------------------------------*/
 .edu{
-    background-color: var(--background-color-3);
-    background-image:linear-gradient(to right, rgba(216, 219, 226, 0.85), rgba(88, 164, 176, 0.55)),url("../images/education-bg.jpg");
-    background-size: cover;       /* image fills the whole section */
-    background-position: center;  /* keep the image centered */
-    background-repeat: no-repeat;
+background:
+linear-gradient(to right, rgba(216, 219, 226, 0.85), rgba(88, 164, 176, 0.55)),
+url("../images/education-bg.jpg");
+
 
 }
 .edu section {
